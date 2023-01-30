@@ -58,8 +58,8 @@ export default function Home() {
           </div>
           
           <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600'>            
-            <a href="https://www.linkedin.com/in/kanjani-kabir-4b6070162/" target="_blank"><AiFillLinkedin className='dark:text-white'/></a>
-            <a href="https://github.com/KabirKanjani" target="_blank"><AiFillGithub className='dark:text-white'/></a>
+            <a href="https://www.linkedin.com/in/kanjani-kabir-4b6070162/" target="_blank" rel="noopener noreferrer"><AiFillLinkedin className='dark:text-white'/></a>
+            <a href="https://github.com/KabirKanjani" target="_blank" rel="noopener noreferrer"><AiFillGithub className='dark:text-white'/></a>
           </div>
           <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
           <Image src={img}  alt={''} />
@@ -72,7 +72,7 @@ export default function Home() {
             </div>
             <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
               <div className='basis-1/3 flex-1 '>
-              <a href="https://sortipl.onrender.com/" target="_blank">
+              <a href="https://sortipl.onrender.com/" target="_blank" rel="noopener noreferrer">
                 <Image src={sortipl} alt="" className='rounded-lg object-cover' width={'100'} height={'100'} layout="responsive"/>
                 <h3 className='text-lg dark:text-white  font-medium pt-8 pb-2  '>SORTIPL</h3>                            
               <p className='text-md py-5 dark:text-white  leading-8 text-gray-800 md:text-xl mx-w-lg mx-auto '>A Website that sorts IPL Highlights on the basis of runs scored by a certain player</p>
@@ -80,7 +80,7 @@ export default function Home() {
               </a>
               </div>
               <div className='basis-1/3 flex-1'>
-              <a  target="_blank" href="https://guesselo.onrender.com/">
+              <a  target="_blank" rel="noopener noreferrer" href="https://guesselo.onrender.com/">
                 <Image src={guesselo} alt="" className='rounded-lg object-cover' width={'100'} height={'100'} layout="responsive"/>
                 <h3 className='text-lg dark:text-white  font-medium pt-8 pb-2'>Guess Elo</h3>                            
               <p className='text-md py-5 dark:text-white  leading-8 text-gray-800 md:text-xl mx-w-lg mx-auto'>Infamous Chess game where you guess the elo of players by watching their games</p>
@@ -88,7 +88,7 @@ export default function Home() {
               </a>
               </div>
               <div className='basis-1/3 flex-1'>
-              <a target="_blank" href="https://casinowars.onrender.com/">
+              <a target="_blank" rel="noopener noreferrer" href="https://casinowars.onrender.com/">
                 <Image src={casinowar1} alt="" className='rounded-lg object-cover' width={'100'} height={'100'} layout="responsive"/>
                 <h3 className='text-lg dark:text-white  font-medium pt-8 pb-2'>Casino War</h3>                            
               <p className='text-md py-5 dark:text-white  leading-8 text-gray-800 md:text-xl mx-w-lg mx-auto'>A popular card game played across the world in casinos</p>
@@ -96,7 +96,7 @@ export default function Home() {
               </a>
               </div>
               <div className='basis-1/3 flex-1'>
-              <a target="_blank" href="https://github.com/KabirKanjani/TimeTableSys">
+              <a target="_blank" rel="noopener noreferrer" href="https://github.com/KabirKanjani/TimeTableSys">
                 <Image src={timetable} alt="" className='rounded-lg object-cover' width={'100'} height={'100'} layout="responsive"/>
                 <h3 className='text-lg dark:text-white  font-medium pt-8 pb-2'>TimeTable System</h3>                            
               <p className='text-md py-5 dark:text-white  leading-8 text-gray-800 md:text-xl mx-w-lg mx-auto'>TimeTable System to simulate the daily system of making timetable and making the process easier and automated</p>
